@@ -46,7 +46,7 @@ fi
 
 if [ ! -d /sdcard/htdocs/phpmyadmin ];
 then
-  cd /sdcard/htdocs && composer create-project phpmyadmin/phpmyadmin
+  cd /sdcard/htdocs && composer create-project phpmyadmin/phpmyadmin --stability dev --no-dev
 fi
 
 cd ~/tamp && cp -f config.inc.php /sdcard/htdocs/phpmyadmin/config.inc.php

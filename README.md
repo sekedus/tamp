@@ -26,7 +26,7 @@ termux-setup-storage
 ```
 4. Install `git` & clone this repo: 
 ```bash
-pkg install git -y && cd ~/ && git clone https://github.com/sekedus/tamp.git
+pkg install git -y && cd ~/ && git clone --branch PHP84XDW https://github.com/sekedus/tamp.git
 ```
 5. Install TAMP: 
 ```bash
